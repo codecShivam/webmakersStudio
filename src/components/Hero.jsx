@@ -15,7 +15,7 @@ const Hero = () => {
       </p>
 
       {/* Button */}
-      <button className="text-gray-50 border bg-gray-700 border-gray-500 py-2 mt-8 px-6 rounded-md">
+      <button className="text-gray-50 font-bold tracking-wide border bg-gray-800 border-gray-500 py-4 px-12 rounded-md">
         View Pricing
       </button>
     </div>

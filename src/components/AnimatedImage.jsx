@@ -14,21 +14,15 @@ const AnimatedImage = ({ src, index }) => {
     config: config.wobbly,
   });
 
-  const shadowColors = [
-    "shadow-orange-700",
-    "shadow-green-500",
-    "shadow-blue-500",
-    "shadow-purple-500",
-  ];
 
-  const shadowColor = shadowColors[index % shadowColors.length];
+
 
   return (
     <animated.img
       ref={ref}
       src={src}
       alt=""
-      className={`w-80 mx-4 my-4 rounded-md hover:shadow-2xl hover:${shadowColor}`}
+      className={`w-80 mx-4 my-4 rounded-md hover:shadow-2xl hover:shadow-gray-700 hover:cursor-pointer`}
       style={props}
     />
   );

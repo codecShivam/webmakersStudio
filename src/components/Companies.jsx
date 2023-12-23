@@ -12,7 +12,7 @@ const Companies = () => {
 
   return (
     <div className="flex flex-col justify-center items-center mt-16">
-      <h1 className="text-xl tracking-tight font-light font-serif text-center text-gray-500 pb-4">
+      <h1 className="text-xl tracking-tighter leading-[normal]   text-center text-gray-500 pb-4">
         Trusted By 250+ Companies
       </h1>
       <Marquee>
