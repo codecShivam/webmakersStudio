@@ -6,6 +6,7 @@ import RecentWork from "../components/recentWork/RecentWork";
 import Working from "../components/Working";
 import Quote from "../components/Quote";
 import Pricing from "../components/pricing/Pricing";
+import Faq from "../components/Faq";
 
 const Home = () => {
   return (
@@ -19,12 +20,9 @@ const Home = () => {
       <Working />
       <Quote />
       <Pricing />
+      <Faq />
     </>
   );
 };
 
 export default Home;
-
-{
-  /* <div className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-white via-blue-100 to-pink-100"> */
-}
