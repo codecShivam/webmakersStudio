@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Freebie",
+      "description": "Ideal for individuals who need quick access to basic features.",
+      "price": "$0",
+      "includedFeatures": [
+        "20,000+ of PNG & SVG graphics",
+        "Access to 100 million stock images"
+      ],
+      "excludedFeatures": [
+        "Upload custom icons and fonts",
+        "Unlimited Sharing",
+        "Upload graphics & video in up to 4k",
+        "Unlimited Projects",
+        "Instant Access to our design system",
+        "Create teams to collaborate on designs"
+      ]
+    },
+    {
+      "name": "Professional",
+      "description": "Ideal for individuals who need advanced features and tools for client work.",
+      "price": "$25",
+      "includedFeatures": [
+        "20,000+ of PNG & SVG graphics",
+        "Access to 100 million stock images",
+        "Upload custom icons and fonts",
+        "Unlimited Sharing",
+        "Upload graphics & video in up to 4k"
+      ],
+      "excludedFeatures": [
+        "Unlimited Projects",
+        "Instant Access to our design system",
+        "Create teams to collaborate on designs"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "description": "Ideal for businesses who need personalized services and security for large teams.",
+      "price": "$100",
+      "includedFeatures": [
+        "20,000+ of PNG & SVG graphics",
+        "Access to 100 million stock images",
+        "Upload custom icons and fonts",
+        "Unlimited Sharing",
+        "Upload graphics & video in up to 4k",
+        "Unlimited Projects",
+        "Instant Access to our design system",
+        "Create teams to collaborate on designs"
+      ],
+      "excludedFeatures": []
+    }
+  ]
+  
