@@ -18,18 +18,18 @@ const Faq = () => {
         <h2 className="text-3xl font-satoshi sm:text-5xl lg:text-6xl font-extrabold text-zinc-900">
           Frequently asked questions
         </h2>
-        <p className="mt-8 mb-16 text-xl text-gray-700">
+        <p className="mt-8 mb-16 text-xl sm:text-lg text-gray-700">
           Everything you need to know about the product and billing.
         </p>
       </div>
-      <div className="sm:pt-4 pt-1 text-left font-Roboto border-t border-gray-200 md:gap-16 md:grid-cols-2">
+      <div className="sm:pt-4 pt-3 text-left border-t border-gray-200">
         {data.map((datas, index) => {
           return (
-            <div className="sm:mb-4 mb-1 sm:pb-2 pb-1 border-b" key={index}>
+            <div className="sm:mb-4 mb-3 sm:pb-2 pb-2 border-b" key={index}>
               <div className="flex flex-row justify-between items-center">
-                <h3 className="flex items-center sm:mb-4 mb-1 text-md sm:text-lg font-medium text-gray-900 ">
+                <h3 className="flex items-center sm:mb-4 mb-1 text-lg sm:text-xl font-medium text-gray-900 ">
                   <svg
-                    className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 "
+                    className="flex-shrink-0 mr-2 w-4 h-4 sm:w-5 sm:h-5 text-gray-500 "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Faq = () => {
                   <img
                     src={isOpen[index] ? minus : plus}
                     alt={isOpen[index] ? "Minus" : "Plus"}
-                    className="w-8 h-8 -mt-6 opacity-50 hover:opacity-100"
+                    className="w-6 h-6 sm:w-8 sm:h-8 -mt-4 sm:-mt-6 opacity-50 hover:opacity-100"
                   />
                 </button>
               </div>
