@@ -11,13 +11,13 @@ const Companies = () => {
   const logos = [Zapier, Spotify, Amazon, Zoom, Slack, Adobe];
 
   return (
-    <div className="flex flex-col justify-center items-center mt-16">
+    <div className="flex flex-col justify-center items-center mt-20">
       <h1 className="text-xl tracking-tighter leading-[normal]   text-center text-gray-500 pb-4">
         Trusted By 250+ Companies
       </h1>
       <Marquee>
         {logos.map((logo, index) => (
-          <img key={index} src={logo} alt="" className="w-60 mx-4" />
+          <img key={index} src={logo} alt="" className="w-72 mx-4" />
         ))}
       </Marquee>
     </div>

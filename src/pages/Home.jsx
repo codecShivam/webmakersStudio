@@ -23,7 +23,7 @@ const Home = () => {
       <Quote />
       <Pricing />
       <Faq />
-      <div className="bg-gradient-to-t from-white via-[#ded7de] to-[#d3cad8]">
+      <div className="bg-gradient-to-t from-white via-[#ded7de] to-[#d3cad8] px-6">
         <ContactUs />
         <Footer />
       </div>
