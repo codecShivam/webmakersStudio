@@ -29,13 +29,13 @@ const PricingPlan = ({
 
   return (
     <animated.div
-      className={`flex flex-grow items-center justify-center gap-x-6 self-stretch h-full`}
+      className={`flex flex-grow items-center justify-center gap-x-6 cursor-grab self-stretch h-full`}
       onMouseMove={handleMouseMove}
       onMouseLeave={() => setHoverProps({ x: 0, y: 0 })}
       style={cardSpring}
     >
       <div
-        className={`flex flex-grow items-center justify-center self-stretch rounded-2xl border border-solid border-gray-200 ${customClass} py-10 px-6 md:px-10 lg:px-12 h-full`}
+        className={`flex flex-grow items-center justify-center self-stretch rounded-2xl border border-solid border-gray-200 ${customClass} py-10 px-6  h-full`}
       >
         <div className="flex flex-grow flex-col items-center justify-center gap-y-10 self-stretch">
           <div className="flex flex-col items-center justify-between gap-y-3 self-stretch">
