@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Hamburger from "../assets/hamburger.svg";
 
 const Navbar = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 640);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 640);
     };
 
     window.addEventListener("resize", handleResize);
@@ -32,7 +32,7 @@ const MobileNavbar = ({ isOpen, toggleMenu }) => {
   return (
     <nav className="flex flex-col font-satoshi justify-between items-center py-7 p-4">
       <div className="flex items-center justify-between w-full">
-        <div className="absolute">
+        <div className="sm:block absolute">
           <h1 className="text-3xl font-semibold text-gray-700">UniCraft</h1>
         </div>
         <img

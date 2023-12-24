@@ -3,11 +3,11 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="flex flex-col font-satoshi justify-end pb-12 items-center space-y-6 sm:h-[58vh] p-4">
-      <h1 className="text-5xl text-center font-semibold text-gray-800  sm:text-7xl">
+      <h1 className="xl:text-7xl md:text-6xl text-center font-semibold text-gray-800  sm:text-5xl text-4xl sm:mt-0 mt-12">
         Elevate Your Presence with <br /> Seamless Design and Innovation.
       </h1>
 
-      <p className="text-xl font-light text-gray-600 sm:text-lg pb-12">
+      <p className="text-xl font-light text-gray-600 text-center sm:text-lg pb-12">
         From strategic planning to digital presence, we're your dedicated
         partner in achieving solo success.
       </p>
