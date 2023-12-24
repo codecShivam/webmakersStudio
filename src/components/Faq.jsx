@@ -13,7 +13,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="px-4 font-satoshi sm:px-6 lg:px-12 mx-auto max-w-screen-xl sm:py-12 my-12">
+    <div className="px-4 font-satoshi sm:px-6 lg:px-12 mx-auto max-w-screen-xl sm:py-12 my-12 bgbl">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-satoshi sm:text-5xl lg:text-6xl font-extrabold text-zinc-900">
           Frequently asked questions

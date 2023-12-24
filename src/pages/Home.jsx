@@ -7,6 +7,8 @@ import Working from "../components/Working";
 import Quote from "../components/Quote";
 import Pricing from "../components/pricing/Pricing";
 import Faq from "../components/Faq";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +23,10 @@ const Home = () => {
       <Quote />
       <Pricing />
       <Faq />
+      <div className="bg-gradient-to-t from-white via-[#ded7de] to-[#d3cad8]">
+        <ContactUs />
+        <Footer />
+      </div>
     </>
   );
 };
