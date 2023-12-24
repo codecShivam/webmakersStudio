@@ -1,0 +1,35 @@
+[
+    {
+      "question": "Is there a free trial available?",
+      "answer": "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."
+    },
+    {
+      "question": "Can I change my plan later?",
+      "answer": "Certainly! You can upgrade, downgrade, or change your plan at any time based on your needs."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Our cancellation policy allows you to cancel your subscription at any time. There are no long-term commitments, and you will only be billed for the time you've used."
+    },
+    {
+      "question": "Can other info be added to an invoice?",
+      "answer": "Absolutely! You can customize your invoices by adding additional information or details to meet your specific requirements."
+    },
+    {
+      "question": "How does billing work?",
+      "answer": "Billing is based on the plan you choose. You will be billed at the beginning of each billing cycle for the selected plan. Any additional usage or changes to your plan may result in adjusted billing."
+    },
+    {
+      "question": "How do I change my account email?",
+      "answer": "To change your account email, go to your account settings and look for the option to update your email address. Follow the provided steps to make the change securely."
+    },
+    {
+      "question": "What happens if I forget my password?",
+      "answer": "If you forget your password, you can use the 'Forgot Password' option on the login page. Follow the instructions sent to your registered email to reset your password."
+    },
+    {
+      "question": "Are there any hidden fees?",
+      "answer": "No, we believe in transparent pricing. There are no hidden fees associated with our service. You'll only be charged based on the plan you choose and any additional usage as specified in our pricing."
+    }
+  ]
+  
