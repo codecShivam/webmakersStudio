@@ -35,46 +35,46 @@ const PricingPlan = ({
       style={cardSpring}
     >
       <div
-        className={`flex flex-grow items-center justify-center self-stretch rounded-2xl border border-solid border-gray-200 ${customClass} py-10 px-6  h-full`}
+        className={`flex flex- items-center justify-center self-stretch rounded-2xl border border-solid border-gray-200 ${customClass} py-6 px-4 sm:w-max w-full sm:py-10 sm:px-6 h-full`}
       >
-        <div className="flex flex-grow flex-col items-center justify-center gap-y-10 self-stretch">
+        <div className="flex flex-grow flex-col items-center justify-center gap-y-6 self-stretch">
           <div className="flex flex-col items-center justify-between gap-y-3 self-stretch">
             <div className="flex items-center justify-center self-stretch text-left tracking-[-0.32px]">
               <div className="flex flex-grow flex-col items-start justify-between gap-y-3 self-stretch">
                 <animated.div
-                  className={`self-stretch text-[22px] font-bold leading-[normal] ${headingClass}`}
+                  className={`self-stretch text-[18px] sm:text-[22px] font-bold leading-[normal] ${headingClass}`}
                 >
                   {name}
                 </animated.div>
                 <animated.div
-                  className={`w-72 text-base font-medium leading-[normal] ${textClass}`}
+                  className={`w-48 sm:w-72 text-base font-medium leading-[normal] ${textClass}`}
                 >
                   {description}
                 </animated.div>
               </div>
             </div>
             <div className="flex flex-grow flex-col items-center justify-between gap-y-6 self-stretch">
-              <div className="flex flex-grow items-center self-stretch pr-48 text-left">
+              <div className="flex flex-grow items-center self-stretch pr-4 sm:pr-12 text-left">
                 <div className="flex flex-grow items-center justify-center gap-x-2 self-stretch">
                   <animated.div
-                    className={`self-stretch text-[56px] font-medium leading-[normal] tracking-[-0.32px] ${headingClass}`}
+                    className={`self-stretch text-[24px] sm:text-[32px] font-medium leading-[normal] tracking-[-0.32px] ${headingClass}`}
                   >
                     {price}
                   </animated.div>
                   <animated.div
-                    className={`text-base font-normal leading-[normal] tracking-[0px] ${textClass}`}
+                    className={`text-base sm:text-base font-normal leading-[normal] tracking-[0px] ${textClass}`}
                   >
                     / Month
                   </animated.div>
                 </div>
               </div>
               <animated.button
-                className={`flex bg-white items-center justify-center self-stretch rounded-lg border border-solid border-gray-600 py-2.5 px-28 text-center text-base font-medium leading-[normal] tracking-[0px] ${
+                className={`flex bg-white items-center justify-center self-stretch rounded-lg border border-solid border-gray-600 py-2 px-10 sm:px-28 text-center text-base font-medium leading-[normal] tracking-[0px] ${
                   name === "Professional" ? "text-zinc-900" : null
                 }`}
               >
                 <div className={`flex flex-grow justify-center self-stretch`}>
-                  Get Started Now
+                  Get Started
                 </div>
               </animated.button>
             </div>
@@ -96,7 +96,7 @@ const PricingPlan = ({
                     }`}
                   ></img>
                 </div>
-                <div className="w-72 self-stretch">{feature}</div>
+                <div className="w-48 sm:w-72 self-stretch">{feature}</div>
               </div>
             ))}
             {excludedFeatures.map((feature, index) => (
@@ -107,7 +107,7 @@ const PricingPlan = ({
                 <div className="h-5 w-5">
                   <img src={Check} alt="Check" className="fill-current "></img>
                 </div>
-                <div className="w-72 self-stretch">{feature}</div>
+                <div className="w-48 sm:w-72 self-stretch">{feature}</div>
               </div>
             ))}
           </animated.div>
