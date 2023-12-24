@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Companies from "../components/Companies";
-import RecentWork from "../components/RecentWork";
+import RecentWork from "../components/recentWork/RecentWork";
 import Working from "../components/Working";
 import Quote from "../components/Quote";
-import Pricing from "../components/Pricing/Pricing";
+import Pricing from "../components/pricing/Pricing";
 
 const Home = () => {
   return (

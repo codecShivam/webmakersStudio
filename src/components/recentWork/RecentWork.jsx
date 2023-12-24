@@ -1,10 +1,10 @@
 import React from "react";
 import AnimatedImage from "./AnimatedImage";
-import Left from "../assets/work/secondRight.svg";
-import SecondLeft from "../assets/work/secondLeft.svg";
-import Center from "../assets/work/center.svg";
-import SecondRight from "../assets/work/secondRight.svg";
-import Right from "../assets/work/secondLeft.svg";
+import Left from "../../assets/work/secondRight.svg";
+import SecondLeft from "../../assets/work/secondLeft.svg";
+import Center from "../../assets/work/center.svg";
+import SecondRight from "../../assets/work/secondRight.svg";
+import Right from "../../assets/work/secondLeft.svg";
 
 const images = [Left, SecondLeft, Center, SecondRight, Right];
 
