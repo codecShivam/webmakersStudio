@@ -72,6 +72,12 @@ const PricingPlan = ({
                 className={`flex bg-white items-center justify-center self-stretch rounded-lg border border-solid border-gray-600 py-2 px-10 sm:px-28 text-center text-base font-medium leading-[normal] tracking-[0px] ${
                   name === "Professional" ? "text-zinc-900" : null
                 }`}
+                style={{
+                  transform: `scale(${hoverProps.x * 0.01 + 1}, ${
+                    hoverProps.y * 0.01 + 1
+                  })`,
+                }}
+                onMouseEnter={() => setHoverProps({ x: 0, y: 0 })}
               >
                 <div className={`flex flex-grow justify-center self-stretch`}>
                   Get Started
@@ -107,7 +113,6 @@ const PricingPlan = ({
                 <div className="h-5 w-5">
                   <img src={Check} alt="Check" className="fill-current "></img>
                 </div>
-                <div className="w-48 sm:w-72 self-stretch">{feature}</div>
               </div>
             ))}
           </animated.div>
