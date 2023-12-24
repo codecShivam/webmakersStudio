@@ -1,6 +1,19 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 const ContactUs = () => {
+  const [springProps, setSpringProps] = useSpring(() => ({
+    scale: 1,
+  }));
+
+  const handleHover = () => {
+    setSpringProps({ scale: 1.1 });
+  };
+
+  const handleLeave = () => {
+    setSpringProps({ scale: 1 });
+  };
+
   return (
     <div className="flex flex-col items-center justify-end self-stretch">
       <div className="flex flex-grow items-center justify-center self-stretch">
@@ -19,11 +32,18 @@ const ContactUs = () => {
                   Start your 30-day free trial. Cancel anytime.
                 </div>
               </div>
-              <button className="flex items-center justify-center rounded-lg bg-gray-800 py-3 sm:py-4 px-8 sm:px-14 text-base sm:text-xl font-bold leading-[normal] tracking-[-0.32px] text-gray-50 [box-shadow:inset_2px_4px_10px_0px_rgba(203,_203,_203,_0.2)]">
+              <animated.button
+                onMouseEnter={handleHover}
+                onMouseLeave={handleLeave}
+                style={{
+                  transform: springProps.scale.interpolate((s) => `scale(${s})`),
+                }}
+                className="flex items-center justify-center rounded-lg bg-gray-800 py-3 sm:py-4 px-8 sm:px-14 text-base sm:text-xl font-bold leading-[normal] tracking-[-0.32px] text-gray-50"
+              >
                 <div className="flex flex-grow justify-center self-stretch">
                   Contact us
                 </div>
-              </button>
+              </animated.button>
             </div>
           </div>
         </div>

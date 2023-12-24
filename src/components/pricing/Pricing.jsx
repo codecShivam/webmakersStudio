@@ -4,7 +4,7 @@ import data from "../../data/PricingPlans.json";
 
 const Pricing = () => {
   return (
-    <div className="font-satoshi bg-gradient-to-r from-white via-[#FCF7FC] to-[#dccbe3] flex flex-grow flex-col items-center justify-end self-stretch py-12 sm:py-24 leading-[normal]">
+    <div id="pricing-section" className="font-satoshi bg-gradient-to-r from-white via-[#FCF7FC] to-[#dccbe3] flex flex-grow flex-col items-center justify-end self-stretch py-12 sm:py-24 leading-[normal]">
       <div className="flex flex-grow items-start justify-center self-stretch bg-cover bg-center">
         <div className="flex flex-grow flex-col items-center justify-center gap-y-3 self-stretch px-4 sm:px-8 md:px-16 lg:px-32">
           <div className="flex items-center justify-center text-center text-2xl md:text-4xl lg:text-5xl font-bold leading-[normal] tracking-[-2px] text-gray-800">
